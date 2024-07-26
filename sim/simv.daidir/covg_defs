@@ -1,0 +1,139 @@
+global coverage_group 0 counter_pkg::counter_sb::mem_coverage __coverage_counter_sb.mem_coverage unused_counter_sb_mem_coverage_loop_label counter_pkg 0 1 0 0 0  ( 0 
+)
+ 1 1
+ 0 80 /home1/BRN34/SkEerthana/VLSI_RN/SV_LABS/miniproject/sim/../env_lib/counter_sb.sv
+ 16 0 0 0 1 0 0 0 0  1
+0
+0 0
+ 0
+ 0
+ 0
+ 0
+ 0
+ 0
+ 0
+ 0 0
+ 0
+ 0 0
+ 0 0
+ 0
+ 0
+ 0
+ 0
+ 0
+ 0
+ 0
+ 0
+ 52 counter_sb::counter_pkg_counter_sb_mem_coverage_fn_8
+0
+0
+0
+64
+0
+ 0
+
+5
+0
+1
+0
+ 4 DATA 19 0 0 0 0 0 50 counter_sb::counter_pkg_counter_sb_mem_coverage_fn 50 counter_sb::counter_pkg_counter_sb_mem_coverage_fn 0 0 0 0 0 0 0 0 0 0 0 -1 0 0 -1 0 0 0 -1 2 4 0 0 1 0 0 0 0
+ 0
+ 0
+ 0
+ 0
+ 0
+ 0
+ 0 0
+ 0
+ 0
+ 0
+ 0
+ 0
+ 0
+ 0
+ 1 1 1 1 0 1 1 7 data_in 19 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 -1 0 0 -1 0 0 1 1 1 52 counter_sb::counter_pkg_counter_sb_mem_coverage_fn_0 0 52 counter_sb::counter_pkg_counter_sb_mem_coverage_fn_1 0 0 0 0 0
+ 0
+
+ 2 LD 20 0 0 0 0 0 52 counter_sb::counter_pkg_counter_sb_mem_coverage_fn_2 52 counter_sb::counter_pkg_counter_sb_mem_coverage_fn_2 0 0 0 0 0 0 0 0 0 0 0 -1 0 0 -1 0 0 0 -1 2 1 0 0 1 0 0 0 0
+ 0
+ 0
+ 0
+ 0
+ 0
+ 0
+ 0 0
+ 0
+ 0
+ 0
+ 0
+ 0
+ 0
+ 0
+ 0
+ 2 MD 21 0 0 0 0 0 52 counter_sb::counter_pkg_counter_sb_mem_coverage_fn_3 52 counter_sb::counter_pkg_counter_sb_mem_coverage_fn_3 0 0 0 0 0 0 0 0 0 0 0 -1 0 0 -1 0 0 0 -1 2 1 0 0 1 0 0 0 0
+ 0
+ 0
+ 0
+ 0
+ 0
+ 0
+ 0 0
+ 0
+ 0
+ 0
+ 0
+ 0
+ 0
+ 0
+ 0
+ 3 RST 22 0 0 0 0 0 52 counter_sb::counter_pkg_counter_sb_mem_coverage_fn_4 52 counter_sb::counter_pkg_counter_sb_mem_coverage_fn_4 0 0 0 0 0 0 0 0 0 0 0 -1 0 0 -1 0 0 0 -1 2 1 0 0 1 0 0 0 0
+ 0
+ 0
+ 0
+ 0
+ 0
+ 0
+ 0 0
+ 0
+ 0
+ 0
+ 0
+ 0
+ 0
+ 0
+ 1 1 1 1 0 1 1 4 ZERO 22 0 1 1 0 0 0 0 0 0 0 0 0 0 0 0 -1 0 0 -1 0 0 2 1 1 52 counter_sb::counter_pkg_counter_sb_mem_coverage_fn_5 0 0 0 0 0 0 0
+ 1 1 52 counter_sb::counter_pkg_counter_sb_mem_coverage_fn_6 0 0 0 0 0 0 0
+ 0
+
+ 3 OUT 23 0 0 0 0 0 52 counter_sb::counter_pkg_counter_sb_mem_coverage_fn_7 52 counter_sb::counter_pkg_counter_sb_mem_coverage_fn_7 0 0 0 0 0 0 0 0 0 0 0 -1 0 0 -1 0 0 0 -1 2 4 0 0 1 0 0 0 0
+ 0
+ 0
+ 0
+ 0
+ 0
+ 0
+ 0 0
+ 0
+ 0
+ 0
+ 0
+ 0
+ 0
+ 0
+ 1 1 1 1 0 1 1 8 data_out 23 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 -1 0 0 -1 0 0 1 1 1 52 counter_sb::counter_pkg_counter_sb_mem_coverage_fn_0 0 52 counter_sb::counter_pkg_counter_sb_mem_coverage_fn_1 0 0 0 0 0
+ 0
+
+ 9 DATAXMODE 0 24 0 0 -1 0 0 0 0 2 0 1 -1 0 0 0
+ 0
+ 0
+ 0
+ 0 0
+ 0 0
+ 0
+ 0
+ 0
+ 0
+ 0
+ 0
+ 0
+end_coverage_group

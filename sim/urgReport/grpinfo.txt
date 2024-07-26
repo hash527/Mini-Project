@@ -1,0 +1,408 @@
+Group : counter_pkg::counter_sb::mem_coverage
+
+===============================================================================
+Group : counter_pkg::counter_sb::mem_coverage
+===============================================================================
+SCORE  INSTANCES WEIGHT GOAL   AT LEAST PER INSTANCE AUTO BIN MAX PRINT MISSING 
+100.00 100.00    1      100    1        1            64           64            
+
+
+Source File(s) : 
+
+/home1/BRN34/SkEerthana/VLSI_RN/SV_LABS/miniproject/sim/../env_lib/counter_sb.sv
+
+1 Instances:
+
+SCORE  WEIGHT GOAL   AT LEAST AUTO BIN MAX PRINT MISSING NAME                                    
+100.00 1      100    1        64           64            top.base_test_h.env_h.sb_h.mem_coverage 
+
+
+
+
+-------------------------------------------------------------------------------
+
+Summary for Group   counter_pkg::counter_sb::mem_coverage
+
+
+
+CATEGORY  EXPECTED UNCOVERED COVERED PERCENT 
+Variables 30       0         30      100.00  
+Crosses   24       0         24      100.00  
+
+
+Variables for Group  counter_pkg::counter_sb::mem_coverage
+
+
+VARIABLE EXPECTED UNCOVERED COVERED PERCENT GOAL WEIGHT AT LEAST AUTO BIN MAX COMMENT 
+DATA     12       0         12      100.00  100  1      1        0                    
+LD       2        0         2       100.00  100  1      1        2                    
+MD       2        0         2       100.00  100  1      1        2                    
+RST      2        0         2       100.00  100  1      1        0                    
+OUT      12       0         12      100.00  100  1      1        0                    
+
+
+Crosses for Group  counter_pkg::counter_sb::mem_coverage
+
+
+CROSS     EXPECTED UNCOVERED COVERED PERCENT GOAL WEIGHT AT LEAST PRINT MISSING COMMENT 
+DATAXMODE 24       0         24      100.00  100  1      1        0                     
+
+
+-------------------------------------------------------------------------------
+
+Summary for Variable DATA
+
+
+CATEGORY          EXPECTED UNCOVERED COVERED PERCENT 
+User Defined Bins 12       0         12      100.00  
+
+
+User Defined Bins for DATA
+
+
+Bins
+
+NAME      COUNT AT LEAST 
+data_in_0 81    1        
+data_in_1 96    1        
+data_in_2 101   1        
+data_in_3 90    1        
+data_in_4 78    1        
+data_in_5 73    1        
+data_in_6 78    1        
+data_in_7 84    1        
+data_in_8 75    1        
+data_in_9 84    1        
+data_in_a 91    1        
+data_in_b 71    1        
+
+
+-------------------------------------------------------------------------------
+
+Summary for Variable LD
+
+
+CATEGORY                     EXPECTED UNCOVERED COVERED PERCENT 
+Automatically Generated Bins 2        0         2       100.00  
+
+
+Automatically Generated Bins for LD
+
+
+Bins
+
+NAME    COUNT AT LEAST 
+auto[0] 707   1        
+auto[1] 295   1        
+
+
+-------------------------------------------------------------------------------
+
+Summary for Variable MD
+
+
+CATEGORY                     EXPECTED UNCOVERED COVERED PERCENT 
+Automatically Generated Bins 2        0         2       100.00  
+
+
+Automatically Generated Bins for MD
+
+
+Bins
+
+NAME    COUNT AT LEAST 
+auto[0] 791   1        
+auto[1] 211   1        
+
+
+-------------------------------------------------------------------------------
+
+Summary for Variable RST
+
+
+CATEGORY          EXPECTED UNCOVERED COVERED PERCENT 
+User Defined Bins 2        0         2       100.00  
+
+
+User Defined Bins for RST
+
+
+Bins
+
+NAME   COUNT AT LEAST 
+ZERO_0 630   1        
+ZERO_1 372   1        
+
+
+-------------------------------------------------------------------------------
+
+Summary for Variable OUT
+
+
+CATEGORY          EXPECTED UNCOVERED COVERED PERCENT 
+User Defined Bins 12       0         12      100.00  
+
+
+User Defined Bins for OUT
+
+
+Bins
+
+NAME       COUNT AT LEAST 
+data_out_0 429   1        
+data_out_1 151   1        
+data_out_2 73    1        
+data_out_3 49    1        
+data_out_4 39    1        
+data_out_5 34    1        
+data_out_6 28    1        
+data_out_7 35    1        
+data_out_8 23    1        
+data_out_9 31    1        
+data_out_a 39    1        
+data_out_b 71    1        
+
+
+-------------------------------------------------------------------------------
+
+Summary for Cross DATAXMODE
+
+
+Samples crossed: DATA LD
+CATEGORY                           EXPECTED UNCOVERED COVERED PERCENT MISSING 
+Automatically Generated Cross Bins 24       0         24      100.00          
+
+
+Automatically Generated Cross Bins for DATAXMODE
+
+
+Bins
+
+DATA      LD      COUNT AT LEAST 
+data_in_0 auto[0] 58    1        
+data_in_0 auto[1] 23    1        
+data_in_1 auto[0] 74    1        
+data_in_1 auto[1] 22    1        
+data_in_2 auto[0] 69    1        
+data_in_2 auto[1] 32    1        
+data_in_3 auto[0] 58    1        
+data_in_3 auto[1] 32    1        
+data_in_4 auto[0] 50    1        
+data_in_4 auto[1] 28    1        
+data_in_5 auto[0] 51    1        
+data_in_5 auto[1] 22    1        
+data_in_6 auto[0] 51    1        
+data_in_6 auto[1] 27    1        
+data_in_7 auto[0] 61    1        
+data_in_7 auto[1] 23    1        
+data_in_8 auto[0] 60    1        
+data_in_8 auto[1] 15    1        
+data_in_9 auto[0] 63    1        
+data_in_9 auto[1] 21    1        
+data_in_a auto[0] 65    1        
+data_in_a auto[1] 26    1        
+data_in_b auto[0] 47    1        
+data_in_b auto[1] 24    1        
+
+
+-------------------------------------------------------------------------------
+===============================================================================
+Group Instance : top.base_test_h.env_h.sb_h.mem_coverage
+===============================================================================
+SCORE  WEIGHT GOAL   AT LEAST AUTO BIN MAX PRINT MISSING 
+100.00 1      100    1        64           64            
+
+
+Group:
+
+SCORE  INSTANCES WEIGHT GOAL   AT LEAST PER INSTANCE AUTO BIN MAX PRINT MISSING COMMENT NAME                                  
+100.00 100.00    1      100    1        1            64           64                    counter_pkg::counter_sb::mem_coverage 
+
+
+
+-------------------------------------------------------------------------------
+
+Summary for Group Instance   top.base_test_h.env_h.sb_h.mem_coverage
+
+
+
+CATEGORY  EXPECTED UNCOVERED COVERED PERCENT 
+Variables 30       0         30      100.00  
+Crosses   24       0         24      100.00  
+
+
+Variables for Group Instance  top.base_test_h.env_h.sb_h.mem_coverage
+
+
+VARIABLE EXPECTED UNCOVERED COVERED PERCENT GOAL WEIGHT AT LEAST AUTO BIN MAX COMMENT 
+DATA     12       0         12      100.00  100  1      1        0                    
+LD       2        0         2       100.00  100  1      1        2                    
+MD       2        0         2       100.00  100  1      1        2                    
+RST      2        0         2       100.00  100  1      1        0                    
+OUT      12       0         12      100.00  100  1      1        0                    
+
+
+Crosses for Group Instance  top.base_test_h.env_h.sb_h.mem_coverage
+
+
+CROSS     EXPECTED UNCOVERED COVERED PERCENT GOAL WEIGHT AT LEAST PRINT MISSING COMMENT 
+DATAXMODE 24       0         24      100.00  100  1      1        0                     
+
+
+-------------------------------------------------------------------------------
+
+Summary for Variable DATA
+
+
+CATEGORY          EXPECTED UNCOVERED COVERED PERCENT 
+User Defined Bins 12       0         12      100.00  
+
+
+User Defined Bins for DATA
+
+
+Bins
+
+NAME      COUNT AT LEAST 
+data_in_0 81    1        
+data_in_1 96    1        
+data_in_2 101   1        
+data_in_3 90    1        
+data_in_4 78    1        
+data_in_5 73    1        
+data_in_6 78    1        
+data_in_7 84    1        
+data_in_8 75    1        
+data_in_9 84    1        
+data_in_a 91    1        
+data_in_b 71    1        
+
+
+-------------------------------------------------------------------------------
+
+Summary for Variable LD
+
+
+CATEGORY                     EXPECTED UNCOVERED COVERED PERCENT 
+Automatically Generated Bins 2        0         2       100.00  
+
+
+Automatically Generated Bins for LD
+
+
+Bins
+
+NAME    COUNT AT LEAST 
+auto[0] 707   1        
+auto[1] 295   1        
+
+
+-------------------------------------------------------------------------------
+
+Summary for Variable MD
+
+
+CATEGORY                     EXPECTED UNCOVERED COVERED PERCENT 
+Automatically Generated Bins 2        0         2       100.00  
+
+
+Automatically Generated Bins for MD
+
+
+Bins
+
+NAME    COUNT AT LEAST 
+auto[0] 791   1        
+auto[1] 211   1        
+
+
+-------------------------------------------------------------------------------
+
+Summary for Variable RST
+
+
+CATEGORY          EXPECTED UNCOVERED COVERED PERCENT 
+User Defined Bins 2        0         2       100.00  
+
+
+User Defined Bins for RST
+
+
+Bins
+
+NAME   COUNT AT LEAST 
+ZERO_0 630   1        
+ZERO_1 372   1        
+
+
+-------------------------------------------------------------------------------
+
+Summary for Variable OUT
+
+
+CATEGORY          EXPECTED UNCOVERED COVERED PERCENT 
+User Defined Bins 12       0         12      100.00  
+
+
+User Defined Bins for OUT
+
+
+Bins
+
+NAME       COUNT AT LEAST 
+data_out_0 429   1        
+data_out_1 151   1        
+data_out_2 73    1        
+data_out_3 49    1        
+data_out_4 39    1        
+data_out_5 34    1        
+data_out_6 28    1        
+data_out_7 35    1        
+data_out_8 23    1        
+data_out_9 31    1        
+data_out_a 39    1        
+data_out_b 71    1        
+
+
+-------------------------------------------------------------------------------
+
+Summary for Cross DATAXMODE
+
+
+Samples crossed: DATA LD
+CATEGORY                           EXPECTED UNCOVERED COVERED PERCENT MISSING 
+Automatically Generated Cross Bins 24       0         24      100.00          
+
+
+Automatically Generated Cross Bins for DATAXMODE
+
+
+Bins
+
+DATA      LD      COUNT AT LEAST 
+data_in_0 auto[0] 58    1        
+data_in_0 auto[1] 23    1        
+data_in_1 auto[0] 74    1        
+data_in_1 auto[1] 22    1        
+data_in_2 auto[0] 69    1        
+data_in_2 auto[1] 32    1        
+data_in_3 auto[0] 58    1        
+data_in_3 auto[1] 32    1        
+data_in_4 auto[0] 50    1        
+data_in_4 auto[1] 28    1        
+data_in_5 auto[0] 51    1        
+data_in_5 auto[1] 22    1        
+data_in_6 auto[0] 51    1        
+data_in_6 auto[1] 27    1        
+data_in_7 auto[0] 61    1        
+data_in_7 auto[1] 23    1        
+data_in_8 auto[0] 60    1        
+data_in_8 auto[1] 15    1        
+data_in_9 auto[0] 63    1        
+data_in_9 auto[1] 21    1        
+data_in_a auto[0] 65    1        
+data_in_a auto[1] 26    1        
+data_in_b auto[0] 47    1        
+data_in_b auto[1] 24    1        
+
+

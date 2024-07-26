@@ -1,0 +1,13 @@
+/home1/BRN34/SkEerthana/VLSI_RN/SV_LABS/miniproject/env/counter_env.sv
+/home1/BRN34/SkEerthana/VLSI_RN/SV_LABS/miniproject/env_lib/counter_gen.sv
+/home1/BRN34/SkEerthana/VLSI_RN/SV_LABS/miniproject/env_lib/counter_if.sv
+/home1/BRN34/SkEerthana/VLSI_RN/SV_LABS/miniproject/env_lib/counter_read_monitor.sv
+/home1/BRN34/SkEerthana/VLSI_RN/SV_LABS/miniproject/env_lib/counter_ref_model.sv
+/home1/BRN34/SkEerthana/VLSI_RN/SV_LABS/miniproject/env_lib/counter_sb.sv
+/home1/BRN34/SkEerthana/VLSI_RN/SV_LABS/miniproject/env_lib/counter_trans.sv
+/home1/BRN34/SkEerthana/VLSI_RN/SV_LABS/miniproject/env_lib/counter_write_driver.sv
+/home1/BRN34/SkEerthana/VLSI_RN/SV_LABS/miniproject/env_lib/counter_write_monitor.sv
+/home1/BRN34/SkEerthana/VLSI_RN/SV_LABS/miniproject/rtl/counter.v
+/home1/BRN34/SkEerthana/VLSI_RN/SV_LABS/miniproject/test/counter_pkg.sv
+/home1/BRN34/SkEerthana/VLSI_RN/SV_LABS/miniproject/test/counter_test.sv
+/home1/BRN34/SkEerthana/VLSI_RN/SV_LABS/miniproject/test/counter_top.sv

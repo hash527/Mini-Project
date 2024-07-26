@@ -1,0 +1,21 @@
+Dashboard
+
+Date: Mon Jul 17 16:48:10 2023
+
+User: SkEerthana
+
+Version: T-2022.06-SP1
+Command line: urg -dir cov1.vdb -format both -report urgReport
+Number of tests: 1
+
+-------------------------------------------------------------------------------
+Total Coverage Summary 
+SCORE  GROUP  
+100.00 100.00 
+
+
+-------------------------------------------------------------------------------
+Total Groups Coverage Summary 
+SCORE  INST SCORE WEIGHT 
+100.00 100.00     1      
+
